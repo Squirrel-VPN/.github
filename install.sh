@@ -6,7 +6,7 @@ printf "\n\n\033[1;35mPerfomanceVPN ✨\033[0m"
 
 echo -e "\n\n\033[0;96mInstalling base packages...\033[0m"
 
-eval "apt update && apt upgrade && apt install net-tools"
+eval "apt update -y && apt upgrade -y && apt install net-tools -y"
 
 echo -e "\n\n\033[0;96mInstalling Docker...\033[0m"
 
